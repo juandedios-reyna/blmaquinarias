@@ -8,7 +8,7 @@ if (isset($_POST['enviar_correo'])) {
     $mensaje = $_POST['mensaje'];
 
     // 2. Configurar correo destino
-    $destinatario = "ventas@blmaquinarias.com"; // CAMBIA ESTO POR TU CORREO REAL
+    $destinatario = "juandediosreyco@gmail.com"; // CAMBIA ESTO POR TU CORREO REAL
     $asunto = "Nueva Cotización Web: $nombre";
 
     // 3. Cuerpo del mensaje
@@ -30,4 +30,5 @@ if (isset($_POST['enviar_correo'])) {
         echo "<script>alert('Error al enviar el correo. Intenta por WhatsApp.'); window.location.href='index.php';</script>";
     }
 }
+
 ?>
