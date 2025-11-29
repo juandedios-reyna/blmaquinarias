@@ -23,7 +23,7 @@ function enviarWhatsApp() {
     texto += `Consulta: ${mensaje}`;
 
     // 4. Tu número de teléfono (código país + número)
-    let numeroEmpresa = "51999999999"; // CAMBIA ESTO POR TU NÚMERO REAL
+    let numeroEmpresa = "51914100825"; // CAMBIA ESTO POR TU NÚMERO REAL
 
     // 5. Abrir la URL
     let url = `https://wa.me/${numeroEmpresa}?text=${texto}`;
@@ -73,4 +73,5 @@ function navHighlighter() {
       }
     }
   });
+
 }
